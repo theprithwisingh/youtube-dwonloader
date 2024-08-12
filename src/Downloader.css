@@ -1,4 +1,4 @@
-.downloader {
+/* .downloader {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
@@ -81,4 +81,145 @@
   .formats .format-item button svg {
     margin-right: 5px;
   }
-  
+   */
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+  font-size: 24px;
+  color: #5b49e5;
+}
+
+.logo span {
+  color: #000;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #5b49e5;
+}
+
+.main-content {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.main-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.main-description {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 400px;
+  border: 2px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5b49e5;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4338b0;
+}
+
+
+.formats {
+  margin-top: 30px;
+}
+
+.format-item {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.format-item button {
+  background-color: #5b49e5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.format-item button svg {
+  margin-right: 5px;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons i {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #777;
+}
+
+.social-icons i:hover {
+  color: #5b49e5;
+}
